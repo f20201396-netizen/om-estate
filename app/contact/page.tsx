@@ -53,8 +53,8 @@ export default function ContactPage() {
                   {
                     Icon: Phone,
                     label: "Phone",
-                    value: "+91 99999 99999",
-                    href: "tel:+919999999999",
+                    value: "+91 98100 71925",
+                    href: "tel:+919810071925",
                   },
                   {
                     Icon: Mail,
@@ -97,7 +97,7 @@ export default function ContactPage() {
               {/* WhatsApp CTA */}
               <div className="mt-8 pt-8 border-t border-border-dark">
                 <a
-                  href="https://wa.me/919999999999?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20a%20property."
+                  href="https://wa.me/919810071925?text=Hello%2C%20I%27d%20like%20to%20enquire%20about%20a%20property."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-3 w-full py-4 bg-[#25D366]/10 border border-[#25D366]/30 text-[#25D366] font-josefin text-sm tracking-[0.15em] uppercase hover:bg-[#25D366]/20 transition-colors"

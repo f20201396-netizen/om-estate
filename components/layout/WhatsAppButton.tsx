@@ -3,7 +3,7 @@
 import { MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
-const WA_NUMBER = "919999999999"; // Replace with actual number
+const WA_NUMBER = "919810071925"; // Replace with actual number
 
 export default function WhatsAppButton() {
   return (

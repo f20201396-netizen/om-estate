@@ -27,7 +27,7 @@ export default function CTABanner() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/919999999999?text=Hello%2C%20I%27m%20interested%20in%20a%20property."
+              href="https://wa.me/919810071925?text=Hello%2C%20I%27m%20interested%20in%20a%20property."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 px-9 py-4 bg-[#25D366] text-white font-josefin font-500 text-sm tracking-[0.1em] uppercase hover:bg-[#22c55e] transition-colors"
@@ -36,7 +36,7 @@ export default function CTABanner() {
               WhatsApp Us
             </a>
             <a
-              href="tel:+919999999999"
+              href="tel:+919810071925"
               className="inline-flex items-center justify-center gap-3 px-9 py-4 border border-gold text-gold font-josefin font-500 text-sm tracking-[0.1em] uppercase hover:bg-gold hover:text-bg transition-all"
             >
               <Phone size={18} />

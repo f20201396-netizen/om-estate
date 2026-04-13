@@ -32,7 +32,7 @@ export default function EnquiryForm({ propertyTitle }: EnquiryFormProps) {
           We&apos;ll contact you within 24 hours. Or reach us instantly on WhatsApp.
         </p>
         <a
-          href={`https://wa.me/919999999999?text=${waMessage}`}
+          href={`https://wa.me/919810071925?text=${waMessage}`}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white font-josefin text-sm tracking-widest uppercase"
@@ -104,7 +104,7 @@ export default function EnquiryForm({ propertyTitle }: EnquiryFormProps) {
 
       <div className="mt-4 pt-4 border-t border-border-dark">
         <a
-          href={`https://wa.me/919999999999?text=${waMessage}`}
+          href={`https://wa.me/919810071925?text=${waMessage}`}
           target="_blank"
           rel="noopener noreferrer"
           className="w-full flex items-center justify-center gap-2 py-3.5 bg-[#25D366]/10 border border-[#25D366]/30 text-[#25D366] font-josefin text-sm tracking-[0.1em] uppercase hover:bg-[#25D366]/20 transition-colors"
