@@ -78,7 +78,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-gold mt-0.5 shrink-0" />
                 <span className="font-josefin text-sm text-text-muted leading-relaxed">
-                  Sector 16 Market, Faridabad, Haryana — 121002
+                  C-20, G.F., 81 Puri High Street, Sec-81, Gr. Faridabad-121002, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -93,10 +93,10 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-gold shrink-0" />
                 <a
-                  href="mailto:info@omestate.in"
+                  href="mailto:omestate@gmail.com"
                   className="font-josefin text-sm text-text-muted hover:text-gold transition-colors"
                 >
-                  info@omestate.in
+                  omestate@gmail.com
                 </a>
               </li>
             </ul>

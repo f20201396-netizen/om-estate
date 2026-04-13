@@ -47,8 +47,8 @@ export default function ContactPage() {
                   {
                     Icon: MapPin,
                     label: "Office Address",
-                    value: "Sector 16 Market, Faridabad, Haryana — 121002",
-                    href: "https://maps.google.com/?q=Sector+16+Faridabad",
+                    value: "C-20, G.F., 81 Puri High Street, Sec-81, Gr. Faridabad-121002, India",
+                    href: "https://maps.google.com/?q=81+Puri+High+Street+Sector+81+Faridabad",
                   },
                   {
                     Icon: Phone,
@@ -59,8 +59,8 @@ export default function ContactPage() {
                   {
                     Icon: Mail,
                     label: "Email",
-                    value: "info@omestate.in",
-                    href: "mailto:info@omestate.in",
+                    value: "omestate@gmail.com",
+                    href: "mailto:omestate@gmail.com",
                   },
                   {
                     Icon: Clock,
