@@ -1,7 +1,20 @@
+import type { Metadata } from "next";
 import { Shield, Award, Users, TrendingUp } from "lucide-react";
 import SectionHeader from "@/components/shared/SectionHeader";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 import GoldButton from "@/components/shared/GoldButton";
+
+export const metadata: Metadata = {
+  title: "About Us | Best Property Dealer in Faridabad Since 2012",
+  description:
+    "OM Estate — Faridabad's most trusted real estate agency since 2012. Meet our team of expert property consultants. 12+ years experience, 2000+ clients, ₹500Cr+ in deals across Faridabad & Delhi NCR.",
+  alternates: { canonical: "https://omestate.online/about" },
+  openGraph: {
+    title: "About OM Estate | Best Property Dealer in Faridabad",
+    description: "12+ years of real estate expertise in Faridabad & NCR. Transparent, client-first approach. Meet the team.",
+    url: "https://omestate.online/about",
+  },
+};
 
 const pillars = [
   {

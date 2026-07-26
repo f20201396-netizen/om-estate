@@ -4,6 +4,9 @@ import { useState } from "react";
 import { Phone, Mail, MapPin, MessageCircle, Send, Clock } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 
+// Page metadata is set in a separate layout or via generateMetadata — contact is a client component
+// so we use a sibling metadata file approach handled in layout
+
 export default function ContactPage() {
   const [form, setForm] = useState({ name: "", phone: "", email: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
