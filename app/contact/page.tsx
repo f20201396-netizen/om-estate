@@ -8,9 +8,26 @@ export default function ContactPage() {
   const [form, setForm] = useState({ name: "", phone: "", email: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
 
+  const buildWAMessage = () => {
+    const lines = [
+      `Hi, I have an enquiry for Om Estate.`,
+      ``,
+      `*Name:* ${form.name}`,
+      `*Phone:* ${form.phone}`,
+      form.email ? `*Email:* ${form.email}` : null,
+      form.message ? `*Message:* ${form.message}` : null,
+    ]
+      .filter(Boolean)
+      .join("\n");
+    return `https://wa.me/919810071925?text=${encodeURIComponent(lines)}`;
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitted(true);
+    setTimeout(() => {
+      window.open(buildWAMessage(), "_blank");
+    }, 800);
   };
 
   return (
