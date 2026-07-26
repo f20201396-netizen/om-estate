@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Send, MessageCircle, CheckCircle } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
-import SectionHeader from "@/components/shared/SectionHeader";
 
 type FormState = {
   name: string;
